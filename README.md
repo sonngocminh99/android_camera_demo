@@ -1,10 +1,240 @@
-# NCMB Camera file upload/download template
+# yAndroidzƒAƒvƒŠ‚Éƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\‚ğ‚Â‚¯‚æ‚¤I
 
-## APIKey setup
+## ŠT—v
 
-MainActivity.java
+* ¡‰ñ‚ÍAndroid‚ÅAƒtƒ@ƒCƒ‹ƒXƒgƒA‚ÌŠî–{“I‚Èg‚¢•û(•Û‘¶Aæ“¾)‚É‚Â‚¢‚Äà–¾‚µ‚Ü‚·B
+* ƒCƒ[ƒW“I‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B
+
+![‰æ‘œ1](/readme-img/OverView.png)
+
+## €”õ
+
+* Android Studio
+* mBaaS‚Ì[ƒAƒJƒEƒ“ƒgì¬](http://mb.cloud.nifty.com/signup.htm)
+
+## è‡
+
+* ƒeƒ“ƒvƒŒ[ƒgƒvƒƒWƒFƒNƒg‚ğƒ_ƒEƒ“ƒ[ƒh
+* SDK‚ğ’Ç‰ÁiÏ‚İEÅVSDK‚ğ—˜—p‚µ‚½‚¢ê‡AXVì‹Æ‚Æ‚µ‚Äs‚Á‚Ä‚­‚¾‚³‚¢j
+* ƒAƒvƒŠì¬‚µAƒL[‚ğİ’è
+* “®ìŠm”F
+
+## STEP 1. ƒeƒ“ƒvƒŒ[ƒgƒvƒƒWƒFƒNƒg
+
+* ƒvƒƒWƒFƒNƒg‚Ì[Githubƒy[ƒW](https://github.com/ncmbadmin/android_camera_demo.git)‚©‚çuClone or downloadv„uDownload ZIPv‚ğƒNƒŠƒbƒN‚µ‚Ü‚·B
+* ƒvƒƒWƒFƒNƒg‚ğ‰ğ“€‚µ‚Ü‚·B
+* AndroidStudio‚ğŠJ‚«A‰ğ“€‚µ‚½ƒvƒƒWƒFƒNƒg‚ğ‘I‘ğ‚µ‚Ü‚·B
+
+![‰æ‘œ2](/readme-img/SelectProject.png)
+
+* ‘I‘ğƒvƒƒWƒFƒNƒg‚ğŠJ‚«‚Ü‚·B
+
+![‰æ‘œ3](/readme-img/ProjectDesign.png)
+
+
+## STEP 2. SDK‚ğ’Ç‰Á‚Æİ’è (Ï‚İ)
+
+Android SDK‚Æ‚ÍAƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚ª’ñ‹Ÿ‚µ‚Ä‚¢‚éuƒf[ƒ^ƒXƒgƒAvuƒvƒbƒVƒ…’Ê’mv‚È‚Ç‚Ì‹@”\‚ğŠÈ’P‚ÜƒR[ƒh‚Å—˜—p‚Å‚«‚é‚à‚Ì‚Å‚·B
+
+![‰æ‘œ4](/readme-img/SdkTypes.png)
+
+mBaaS‚Å‚ÍAAndroid, iOS, Unity, JavaScript SDK‚ğ’ñ‹Ÿ‚µ‚Ä‚¢‚Ü‚·B
+¡‰ñAndroid SDK‚Ì’Ç‰Á‚µ•û‚Æİ’è‚ğĞ‰î‚µ‚Ü‚·B
+
+* ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ƒvƒƒWƒFƒNƒg‚É‚ÍŠù‚Éİ’èÏ‚İ‚Å‚·‚ªAÅV‚Å‚Í‚È‚¢ê‡A‚²©g‚Å“ü‚ê‘Ö‚¦‚Ä‚­‚¾‚³‚¢I
+* ‚Ü‚½‚²©g‚ÌƒvƒƒWƒFƒNƒg‚É‚àSDK‚ğ’Ç‰Á‚µ‚½‚¢ê‡‚à“¯‚¶‚­À‘••K—v‚Å‚·B
+
+* SDKƒ_ƒEƒ“ƒ[ƒh
+SDK‚Í‚±‚±iSDK[ƒŠƒŠ[ƒXƒy[ƒW](https://github.com/NIFTYCloud-mbaas/ncmb_android/releases)j‚©‚çæ“¾‚µ‚Ä‚­‚¾‚³‚¢.
+  - NCMB.jarƒtƒ@ƒCƒ‹‚ªƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
+* SDK‚ğƒCƒ“ƒ|[ƒg
+  - app/libsƒtƒHƒ‹ƒ_‚ÉNCMB.jar‚ğƒRƒs[‚µ‚Ü‚·B
+* İ’è’Ç‰Á
+  - app/build.gradleƒtƒ@ƒCƒ‹‚ÉˆÈ‰º‚ğ’Ç‰Á‚µ‚Ü‚·B
 
 ```
-//**************** APIã‚­ãƒ¼ã®è¨­å®šã¨SDKã®åˆæœŸåŒ– **********************
-       NCMB.initialize(this, "YOUR_APP_KEY", "YOUR_CLIENT_KEY");
+dependencies {
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/NCMB.jar')
+}
 ```
+  - androidManifest‚Ìİ’è
+
+<application>ƒ^ƒO‚Ì’¼‘O‚ÉˆÈ‰º‚Ìpermission‚ğ’Ç‰Á‚µ‚Ü‚·B
+
+```
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
+
+## STEP 3. ƒAƒvƒŠƒL[İ’è
+
+* ‰ïˆõ“o˜^i–³—¿j‚ğ‚µA“o˜^‚ª‚Å‚«‚½‚çƒƒOƒCƒ“‚ğ‚·‚é‚Æ‰º}‚Ì‚æ‚¤‚ÉuƒAƒvƒŠ‚ÌV‹Kì¬v‰æ–Êo‚é‚Ì‚ÅƒAƒvƒŠ‚ğì¬‚µ‚Ü‚·B
+
+![‰æ‘œ5](/readme-img/mBassNewProject.png)
+
+* ƒAƒvƒŠì¬‚³‚ê‚é‚Æ‰º}‚Ì‚æ‚¤‚È‰æ–Ê‚É‚È‚è‚Ü‚·B
+* ‚±‚Ì‚Qí—Ş‚ÌAPIƒL[iƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[‚ÆƒNƒ‰ƒCƒAƒ“ƒgƒL[j‚Íæ‚Ù‚ÇƒCƒ“ƒ|[ƒg‚µ‚½AndroidStudio‚Åì¬‚·‚éAndroidƒAƒvƒŠ‚ÉƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚Ì•R•t‚¯‚é‚½‚ßA‚ ‚Æ‚Åg‚¢‚Ü‚·B
+
+![‰æ‘œ6](/readme-img/mBassAPIkey.png)
+
+* ‚±‚ÌŒã“®ìŠm”F‚Åƒf[ƒ^‚ª•Û‘¶‚³‚ê‚éêŠ‚àŠm”F‚µ‚Ä‚¨‚«‚Ü‚µ‚å‚¤B
+
+![‰æ‘œ7](/readme-img/mBassData.png)
+
+* AndroidStudio‚Åæ“¾APIƒL[(ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[AƒNƒ‰ƒCƒ“ƒgƒL[)‚ğİ’è‚·‚éB
+
+![‰æ‘œ8](/readme-img/AndroidAPIkey.png)
+
+* AndroidStudio‚©‚çƒrƒ‹ƒh‚·‚éB
+    * uƒvƒƒWƒFƒNƒgêŠv\app\build\outputs\apk\ ***.apk ƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚é
+
+## STEP 4. Šm”F
+
+* ƒAƒvƒŠ‚É‚Äƒ{ƒ^ƒ“‚ğƒ^ƒu‚µA‰æ‘œ(¡‰ñ‚Íƒtƒ@ƒCƒ‹–¼ŒÅ’èF`test.png`)‚ğ–³–B‚Á‚½ŒãAƒAƒvƒŠ‚É‚Äæ“¾E•\¦‚·‚é–‚ªo—ˆ‚Ü‚·B
+
+![‰æ‘œ9](/readme-img/AndroidCamera.png)
+
+* mBaaS‘¤‚Ìƒtƒ@ƒCƒ‹ƒXƒgƒA‚ÉƒAƒbƒvƒ[ƒh‚³‚ê‚½‰æ‘œ‚ğŠm”Fo—ˆ‚Ü‚·B
+
+![‰æ‘œ10](/readme-img/mBassFileStore.png)
+
+
+## ƒR[ƒhà–¾
+
+* SDK‚¨‚æ‚Ñ•K—v‚Èƒ‰ƒCƒuƒ‰ƒŠ[‚ğƒCƒ“ƒ|[ƒg‚µ‚Ü‚·B
+
+```java:
+
+import com.nifty.cloud.mb.core.DoneCallback;
+import com.nifty.cloud.mb.core.FetchFileCallback;
+import com.nifty.cloud.mb.core.NCMB;
+import com.nifty.cloud.mb.core.NCMBAcl;
+import com.nifty.cloud.mb.core.NCMBException;
+import com.nifty.cloud.mb.core.NCMBFile;
+```
+
+* SDK‚ğ‰Šú‰»
+
+ * `MainActivity.java`‚ÌOnCreateƒƒ\ƒbƒh‚ÉÀ‘•A‚±‚±‚ÅAPIƒL[‚ğ“n‚µ‚Ü‚·B
+
+```java:
+
+ @Override
+    protected void onCreate(Bundle savedInstanceState) {
+       <È—ª>
+        //**************** APIƒL[‚Ìİ’è‚ÆSDK‚Ì‰Šú‰» **********************
+        NCMB.initialize(this, "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY");
+    }
+```
+
+‚Pjƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh
+
+* mBaaS‚ÌAndroid SDK‚ª’ñ‹Ÿ‚·‚éAƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\‚ğ—˜—p‚·‚éê‡‚ÍNCMBFile‚ğg—p‚µ‚Ü‚·B
+* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh‚·‚é‚É‚ÍA‚±‚ÌƒNƒ‰ƒX‚ª’ñ‹Ÿ‚·‚ésaveInBackgroundƒƒ\ƒbƒh‚ğ—˜—p‚µ‚Ü‚·B
+* saveInBackground()‚ğÀ{‚·‚é‚±‚Æ‚ÅA”ñ“¯Šú‚É•Û‘¶‚ªs‚í‚ê‚Ü‚·B”ñ“¯ŠúÀ{‚·‚é‚½‚ßADoneCallBack()‚ğg‚Á‚ÄA¬Œ÷E¸”sˆ—‚ğw’è‚µ‚Ü‚·B
+ - ƒtƒ@ƒCƒ‹•Û‘¶‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹‚Ìæ“¾‚ğs‚¢‚Ü‚·B(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
+ - ƒtƒ@ƒCƒ‹•Û‘¶‚É¸”s‚·‚éê‡AƒAƒ‰[ƒg‚Å•Û‘¶¸”s‚ğ•\¦‚µ‚Ü‚·B
+* ƒAƒbƒvƒ[ƒh‚·‚éƒtƒ@ƒCƒ‹–¼‚ªd•¡‚·‚éê‡‚ÍAVƒtƒ@ƒCƒ‹‚ªã‘‚«•Û‘¶‚É‚È‚è‚Ü‚·B
+
+‚QjƒAƒbƒvƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ğæ“¾
+
+* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚É•Û‘¶‚µ‚½‚à‚Ì‚ğæ“¾‚·‚é‚É‚ÍAfetchƒƒ\ƒbƒh‚ğ—˜—p‚µ‚Ü‚·B
+* fetchInBackgroundƒƒ\ƒbƒh‚Å‚Ì”ñ“¯Šúˆ—‚à‰Â”\‚Å‚·B(¡‰ñ—˜—p)
+ - ƒtƒ@ƒCƒ‹‚Ìæ“¾‚É‚ÍAƒtƒ@ƒCƒ‹–¼‚ğæ‚Éæ“¾‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
+ - ƒtƒ@ƒCƒ‹æ“¾‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹æ“¾E•\¦‚µ‚Ü‚·B
+ - ƒtƒ@ƒCƒ‹æ“¾‚É¸”s‚·‚éê‡AƒAƒ‰[ƒg‚Å¸”s‚ğ•\¦‚µ‚Ü‚·B
+ 
+```java:
+
+ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // TODO Auto-generated method stub
+        super.onActivityResult(requestCode, resultCode, data);
+        if (data == null || data.getExtras() == null) {
+            return;
+        } else {
+            Bitmap bp = (Bitmap) data.getExtras().get("data");
+            //******* NCMB file upload *******
+            ByteArrayOutputStream byteArrayStream = new ByteArrayOutputStream();
+            bp.compress(Bitmap.CompressFormat.PNG, 0, byteArrayStream);
+            byte[] dataByte = byteArrayStream.toByteArray();
+
+            //ACL “Ç‚İ‚İ:‰Â , ‘‚«‚İ:‰Â
+            NCMBAcl acl = new NCMBAcl();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+
+            //’ÊMÀ{
+            final NCMBFile file = new NCMBFile("test.png", dataByte, acl);
+            file.saveInBackground(new DoneCallback() {
+                @Override
+                public void done(NCMBException e) {
+                    String result;
+                    if (e != null) {
+                        //•Û‘¶¸”s
+                        new AlertDialog.Builder(MainActivity.this)
+                                .setTitle("Notification from Nifty")
+                                .setMessage("Error:" + e.getMessage())
+                                .setPositiveButton("OK", null)
+                                .show();
+                    } else {
+                        //******* NCMB file download *******
+                        NCMBFile file = new NCMBFile("test.png");
+                        file.fetchInBackground(new FetchFileCallback() {
+                            @Override
+                            public void done(byte[] dataFetch, NCMBException er) {
+                                if (er != null) {
+                                    //¸”sˆ—
+                                    new AlertDialog.Builder(MainActivity.this)
+                                            .setTitle("Notification from Nifty")
+                                            .setMessage("Error:" + er.getMessage())
+                                            .setPositiveButton("OK", null)
+                                            .show();
+                                } else {
+                                    //¬Œ÷ˆ—
+                                    Bitmap bMap = BitmapFactory.decodeByteArray(dataFetch, 0, dataFetch.length);
+                                    iv.setImageBitmap(bMap);
+                                }
+                            }
+                        });
+
+
+                    }
+                }
+            });
+        }
+    }
+```
+
+## ‚à‚Á‚Æ[‚­’m‚è‚½‚¢•û‚Ö
+* ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend ‚Ì[ƒhƒLƒ…ƒƒ“ƒgiƒtƒ@ƒCƒ‹ƒXƒgƒAiAndroidjj](http://mb.cloud.nifty.com/doc/current/filestore/basic_usage_android.html)‚ğ‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚²Šˆ—p‚­‚¾‚³‚¢B
+
+## Ql
+
+ƒTƒ“ƒvƒ‹ƒR[ƒh‚ğƒJƒXƒ^ƒ}ƒCƒY‚·‚é‚±‚Æ‚ÅA—lX‚È‹@”\‚ğÀ‘•‚Å‚«‚Ü‚·I
+ƒf[ƒ^•Û‘¶Eƒf[ƒ^ŒŸõE‰ïˆõŠÇ—EƒvƒbƒVƒ…’Ê’m‚È‚Ç‚Ì‹@”\‚ğÀ‘•‚µ‚½‚¢ê‡‚É‚ÍA
+ˆÈ‰º‚ÌƒhƒLƒ…ƒƒ“ƒg‚à‚²Ql‚­‚¾‚³‚¢B
+
+* [ƒhƒLƒ…ƒƒ“ƒg](http://mb.cloud.nifty.com/doc/current/)
+* [ƒhƒLƒ…ƒƒ“ƒgEƒf[ƒ^ƒXƒgƒA](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_android.html)
+* [ƒhƒLƒ…ƒƒ“ƒgE‰ïˆõŠÇ—](http://mb.cloud.nifty.com/doc/current/user/basic_usage_android.html)
+* [ƒhƒLƒ…ƒƒ“ƒgEƒvƒbƒVƒ…’Ê’m](http://mb.cloud.nifty.com/doc/current/push/basic_usage_android.html)
+
+## ÅŒã‚É
+
+ƒf[ƒ^‚ğ•Û‘¶‚·‚é‚Á‚ÄƒT[ƒo‚ğ—§‚Ä‚½‚èA©•ª‚ÅƒT[ƒo‰^—p‚Æ‚©AİŒv‚Æ‚©AƒAƒvƒŠ‚©‚çƒT[ƒo[‚Æ‚Ì‚â‚è‚Æ‚è‚àFXl—¶‚µ‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
+Å’Z•û–@‚Æ‚¢‚¤‚Ì‚ÍA‚±‚Ì‚æ‚¤‚ÉmBaaSƒT[ƒrƒX‚ğg‚Á‚ÄA‰^—pAİŒv‚È‚Ç©•ª‚Å‚â‚ç‚È‚­‚ÄÏ‚ŞAŠJ”­‚à”sƒR[ƒh‘‚¯‚Î‚¢‚¢‚Æ‚¢‚¤•Ö—˜‚È‚à‚Ì‚Í‚¢‚©‚ª‚Å‚µ‚å‚¤‚©H
+
+## Contributing
+
+*    Fork it!
+*    Create your feature branch: git checkout -b my-new-feature
+*    Commit your changes: git commit -am 'Add some feature'
+*    Push to the branch: git push origin my-new-feature
+*    Submit a pull request :D
+
+## License
+
+    MITƒ‰ƒCƒZƒ“ƒX
+    NIFTY Cloud mobile backend‚ÌAndroid SDK‚Ìƒ‰ƒCƒZƒ“ƒX
