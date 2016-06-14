@@ -1,133 +1,94 @@
-# 【Android】アプリにファイルストア機能をつけよう！
-
-## 概要
-
-* 今回はAndroidで、ファイルストアの基本的な使い方(保存、取得)について説明します。
-* イメージ的は以下のようになります。
+# 【Android】写真をクラウドに保存しよう！
 
 ![画像1](/readme-img/OverView.png)
 
-## 準備
+## 概要
 
-* Android Studio
-* mBaaSの[アカウント作成](http://mb.cloud.nifty.com/signup.htm)
+* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の『ファイルストア機能』を利用して、「撮った写真をクラウドに保存する」内容を実装したサンプルプロジェクトです
+* 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます
+
+## ニフティクラウドmobile backendって何？？
+スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
+
+注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
+
+![画像2](/readme-img/SdkTypes.png)
+
+## 動作環境
+* Windows 7 Professional
+* Android Studio 1.5
+* Android ver 4x,5x
+ * このサンプルアプリは、端末のカメラを使用するため、実機ビルドが必要です
+
+※上記内容で動作確認をしています
+
 
 ## 手順
+### 1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
 
-* テンプレートプロジェクトをダウンロード
-* SDKを追加（済み・最新SDKを利用したい場合、更新作業として行ってください）
-* アプリ作成し、キーを設定
-* 動作確認
+* 上記リンクから会員登録（無料）をします登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
-## STEP 1. テンプレートプロジェクト
+![画像3](/readme-img/mBassNewProject.png)
+
+* アプリ作成されると下図のような画面になります
+* この２種類のAPIキー（アプリケーションキーとクライアントキー）は先ほどインポートしたAndroidStudioで作成するAndroidアプリにニフティクラウドmobile backendの紐付けるため、あとで使います
+
+![画像4](/readme-img/mBassAPIkey.png)
+
+* 動作確認後に写真（画像）が保存される場所も確認しておきましょう
+
+![画像5](/readme-img/mBassData.png)
+
+### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)からサンプルプロジェクトのダウンロード
 
 * プロジェクトの[Githubページ](https://github.com/ncmbadmin/android_camera_demo.git)から「Clone or download」＞「Download ZIP」をクリックします。
 * プロジェクトを解凍します。
+
+### 3. AndroidStudioでアプリを起動
+
 * AndroidStudioを開き、解凍したプロジェクトを選択します。
 
-![画像2](/readme-img/SelectProject.png)
+![画像6](/readme-img/SelectProject.png)
 
-* 選択プロジェクトを開きます。
+* プロジェクトを開きます。
 
-![画像3](/readme-img/ProjectDesign.png)
+![画像7](/readme-img/ProjectDesign.png)
 
+### 4. APIキーの設定
 
-## STEP 2. SDKを追加と設定 (済み)
-
-Android SDKとは、ニフティクラウドmobile backendが提供している「データストア」「プッシュ通知」などの機能を簡単まコードで利用できるものです。
-
-![画像4](/readme-img/SdkTypes.png)
-
-mBaaSでは、Android, iOS, Unity, JavaScript SDKを提供しています。
-今回Android SDKの追加し方と設定を紹介します。
-
-* ダウンロードしたプロジェクトには既に設定済みですが、最新ではない場合、ご自身で入れ替えてください！
-* またご自身のプロジェクトにもSDKを追加したい場合も同じく実装必要です。
-
-* SDKダウンロード
-SDKはここ（SDK[リリースページ](https://github.com/NIFTYCloud-mbaas/ncmb_android/releases)）から取得してください.
-  - NCMB.jarファイルがダウンロードします。
-* SDKをインポート
-  - app/libsフォルダにNCMB.jarをコピーします。
-* 設定追加
-  - app/build.gradleファイルに以下を追加します。
-
-```
-dependencies {
-    compile 'com.google.code.gson:gson:2.3.1'
-    compile files('libs/NCMB.jar')
-}
-```
-  - androidManifestの設定
-
-<application>タグの直前に以下のpermissionを追加します。
-
-```
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-```
-
-
-## STEP 3. アプリキー設定
-
-* 会員登録（無料）をし、登録ができたらログインをすると下図のように「アプリの新規作成」画面出るのでアプリを作成します。
-
-![画像5](/readme-img/mBassNewProject.png)
-
-* アプリ作成されると下図のような画面になります。
-* この２種類のAPIキー（アプリケーションキーとクライアントキー）は先ほどインポートしたAndroidStudioで作成するAndroidアプリにニフティクラウドmobile backendの紐付けるため、あとで使います。
-
-![画像6](/readme-img/mBassAPIkey.png)
-
-* この後動作確認でデータが保存される場所も確認しておきましょう。
-
-![画像7](/readme-img/mBassData.png)
-
-* AndroidStudioで取得APIキー(アプリケーションキー、クライントキー)を設定する。
+* `MainActivity.java`を編集します
+* 先程[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボード上で確認したAPIキーを貼り付けます
 
 ![画像8](/readme-img/AndroidAPIkey.png)
 
-* AndroidStudioからビルドする。
-    * 「プロジェクト場所」\app\build\outputs\apk\ ***.apk ファイルが生成される
+* それぞれ`YOUR_APP_KEY`と`YOUR_CLIENT_KEY`の部分を書き換えます
+ * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
 
-## STEP 4. 確認
+### 5. 動作確認
 
-* アプリにてボタンをタブし、画像(今回はファイル名固定：`test.png`)を無事撮った後、アプリにて取得・表示する事が出来ます。
+* アプリが起動したら、①「CAMERA」ボタンをタップして、写真を撮影します
+* 次に、②「保存」ボタンをタップして、保存します(今回はファイル名固定：`test.png`)
+* 保存された画像が起動画面に表示されます
 
 ![画像9](/readme-img/AndroidCamera.png)
 
-* mBaaS側のファイルストアにアップロードされた画像を確認出来ます。
+-----
+
+* 保存に成功したら、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボードから「ファイルストア」を確認してみましょう！
 
 ![画像10](/readme-img/mBassFileStore.png)
 
+* 簡単に写真がクラウドに保存できました☆★
 
-## コード説明
+## 解説
+サンプルプロジェクトに実装済みの内容のご紹介
 
-* SDKおよび必要なライブラリーをインポートします。
+#### SDKのインポートと初期設定
+* ニフティクラウドmobile backend の[ドキュメント（クイックスタート）](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_android.html#/Android/)をご用意していますので、ご活用ください
 
-```java:
-
-import com.nifty.cloud.mb.core.DoneCallback;
-import com.nifty.cloud.mb.core.FetchFileCallback;
-import com.nifty.cloud.mb.core.NCMB;
-import com.nifty.cloud.mb.core.NCMBAcl;
-import com.nifty.cloud.mb.core.NCMBException;
-import com.nifty.cloud.mb.core.NCMBFile;
-```
-
-* SDKを初期化
-
- * `MainActivity.java`のOnCreateメソッドに実装、ここでAPIキーを渡します。
-
-```java:
-
- @Override
-    protected void onCreate(Bundle savedInstanceState) {
-       <省略>
-        //**************** APIキーの設定とSDKの初期化 **********************
-        NCMB.initialize(this, "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY");
-    }
-```
+#### ロジック
+ * `activity_main.xml`でデザインを作成し、`MainActivity.java`にロジックを書いています
+ * 写真をクラウドに保存する処理は以下のように記述されます
 
 １）ファイルストアへのアップロード
 
@@ -207,34 +168,6 @@ import com.nifty.cloud.mb.core.NCMBFile;
     }
 ```
 
-## もっと深く知りたい方へ
-* ニフティクラウドmobile backend の[ドキュメント（ファイルストア（Android））](http://mb.cloud.nifty.com/doc/current/filestore/basic_usage_android.html)をご用意していますので、ご活用ください。
-
 ## 参考
+* ニフティクラウドmobile backend の[ドキュメント（ファイルストア（Android））](http://mb.cloud.nifty.com/doc/current/filestore/basic_usage_android.html)をご用意していますので、ご活用ください
 
-サンプルコードをカスタマイズすることで、様々な機能を実装できます！
-データ保存・データ検索・会員管理・プッシュ通知などの機能を実装したい場合には、
-以下のドキュメントもご参考ください。
-
-* [ドキュメント](http://mb.cloud.nifty.com/doc/current/)
-* [ドキュメント・データストア](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_android.html)
-* [ドキュメント・会員管理](http://mb.cloud.nifty.com/doc/current/user/basic_usage_android.html)
-* [ドキュメント・プッシュ通知](http://mb.cloud.nifty.com/doc/current/push/basic_usage_android.html)
-
-## 最後に
-
-データを保存するってサーバを立てたり、自分でサーバ運用とか、設計とか、アプリからサーバーとのやりとりも色々考慮しなければなりません。
-最短方法というのは、このようにmBaaSサービスを使って、運用、設計など自分でやらなくて済む、開発も数行コード書けばいいという便利なものはいかがでしょうか？
-
-## Contributing
-
-*    Fork it!
-*    Create your feature branch: git checkout -b my-new-feature
-*    Commit your changes: git commit -am 'Add some feature'
-*    Push to the branch: git push origin my-new-feature
-*    Submit a pull request :D
-
-## License
-
-    MITライセンス
-    NIFTY Cloud mobile backendのAndroid SDKのライセンス
