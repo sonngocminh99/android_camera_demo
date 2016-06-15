@@ -18,7 +18,7 @@
 * Windows 7 Professional
 * Android Studio 1.5
 * Android ver 4x,5x
- * このサンプルアプリは、端末のカメラを使用するため、実機ビルドが必要です
+ * このサンプルアプリは、端末のカメラを使用するため、実機が必要です
 
 ※上記内容で動作確認をしています
 
@@ -41,16 +41,16 @@
 
 ### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)からサンプルプロジェクトのダウンロード
 
-* プロジェクトの[Githubページ](https://github.com/ncmbadmin/android_camera_demo.git)から「Clone or download」＞「Download ZIP」をクリックします。
-* プロジェクトを解凍します。
+* プロジェクトの[Githubページ](https://github.com/ncmbadmin/android_camera_demo.git)から「Clone or download」＞「Download ZIP」をクリックします
+* プロジェクトを解凍します
 
 ### 3. AndroidStudioでアプリを起動
 
-* AndroidStudioを開き、解凍したプロジェクトを選択します。
+* AndroidStudioを開き、解凍したプロジェクトを選択します
 
 ![画像6](/readme-img/SelectProject.png)
 
-* プロジェクトを開きます。
+* プロジェクトを開きます
 
 ![画像7](/readme-img/ProjectDesign.png)
 
@@ -92,22 +92,22 @@
 
 １）ファイルストアへのアップロード
 
-* mBaaSのAndroid SDKが提供する、ファイルストア機能を利用する場合はNCMBFileを使用します。
-* ファイルストアへのアップロードするには、このクラスが提供するsaveInBackgroundメソッドを利用します。
-* saveInBackground()を実施することで、非同期に保存が行われます。非同期実施するため、DoneCallBack()を使って、成功・失敗処理を指定します。
- - ファイル保存に成功した場合は、ファイルの取得を行います。(今回保存したファイル名：`test.png`)
- - ファイル保存に失敗する場合、アラートで保存失敗を表示します。
-* アップロードするファイル名が重複する場合は、新ファイルが上書き保存になります。
+* mBaaSのAndroid SDKが提供する、ファイルストア機能を利用する場合はNCMBFileを使用します
+* ファイルストアへのアップロードするには、このクラスが提供するsaveInBackgroundメソッドを利用します
+* saveInBackground()を実施することで、非同期に保存が行われます非同期実施するため、DoneCallBack()を使って、成功・失敗処理を指定します
+ - ファイル保存に成功した場合は、ファイルの取得を行います(今回保存したファイル名：`test.png`)
+ - ファイル保存に失敗した場合、アラートで保存失敗を表示します
+* ファイル名を固定しているため、新しくファイル（画像）を保存すると上書きされます
 
 ２）アップロードしたファイルを取得
 
-* ファイルストアに保存したものを取得するには、fetchメソッドを利用します。
-* fetchInBackgroundメソッドでの非同期処理も可能です。(今回利用)
- - ファイルの取得時には、ファイル名を先に取得する必要があります。(今回保存したファイル名：`test.png`)
- - ファイル取得に成功した場合は、ファイル取得・表示します。
- - ファイル取得に失敗する場合、アラートで失敗を表示します。
+* ファイルストアに保存したものを取得するには、fetchメソッドを利用します
+* fetchInBackgroundメソッドでの非同期処理も可能です(今回利用)
+ - ファイルの取得時には、ファイル名を先に取得する必要があります(今回保存したファイル名：`test.png`)
+ - ファイル取得に成功した場合は、ファイル取得・表示します
+ - ファイル取得に失敗した場合、アラートで失敗を表示します
  
-```java:
+```java
 
  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // TODO Auto-generated method stub
