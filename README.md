@@ -56,13 +56,15 @@
 
 ### 4. APIキーの設定
 
-* `MainActivity.java`を編集します
-* 先程[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボード上で確認したAPIキーを貼り付けます
+* AndroidStudioでMainActivity.javaにあるAPIキー（アプリケーションキーとクライアントキー）の設定をします
 
 ![画像8](/readme-img/AndroidAPIkey.png)
 
 * それぞれ`YOUR_APP_KEY`と`YOUR_CLIENT_KEY`の部分を書き換えます
  * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
+
+* AndroidStudioからビルドする。
+    * 「プロジェクト場所」\app\build\outputs\apk\ ***.apk ファイルが生成される
 
 ### 5. 動作確認
 
