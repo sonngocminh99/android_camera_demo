@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
 
         //**************** APIキーの設定とSDKの初期化 **********************
-        NCMB.initialize(this, "YOUR_APP_KEY", "YOUR_CLIENT_KEY");
+        NCMB.initialize(this.getApplicationContext(), "YOUR_APP_KEY", "YOUR_CLIENT_KEY");
 
         setContentView(R.layout.activity_main);
 
