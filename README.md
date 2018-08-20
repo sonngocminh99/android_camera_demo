@@ -4,13 +4,13 @@
 
 ## 概要
 
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の『ファイルストア機能』を利用して、「撮った写真をクラウドに保存する」内容を実装したサンプルプロジェクトです
-* 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます
+* [ニフティクラウドmobile backend](https://mbaas.nifcloud.com/)の『ファイルストア機能』を利用して、「撮った写真をクラウドに保存する」内容を実装したサンプルプロジェクトです
+* 簡単な操作ですぐに [ニフティクラウドmobile backend](https://mbaas.nifcloud.com/)の機能を体験いただけます
 
 ## ニフティクラウドmobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
 
-注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
 
 ![画像2](/readme-img/SdkTypes.png)
 
@@ -24,7 +24,7 @@
 
 
 ## 手順
-### 1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
+### 1. [ニフティクラウドmobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン→アプリ作成
 
 * 上記リンクから会員登録（無料）をします登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
@@ -76,7 +76,7 @@
 
 -----
 
-* 保存に成功したら、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボードから「ファイルストア」を確認してみましょう！
+* 保存に成功したら、[ニフティクラウドmobile backend](https://mbaas.nifcloud.com/)のダッシュボードから「ファイルストア」を確認してみましょう！
 
 ![画像10](/readme-img/mBassFileStore.png)
 
@@ -86,7 +86,7 @@
 サンプルプロジェクトに実装済みの内容のご紹介
 
 #### SDKのインポートと初期設定
-* ニフティクラウドmobile backend の[ドキュメント（クイックスタート）](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_android.html#/Android/)をご用意していますので、ご活用ください
+* ニフティクラウドmobile backend の[ドキュメント（クイックスタート）](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_android.html#/Android/)をご用意していますので、ご活用ください
 
 #### ロジック
  * `activity_main.xml`でデザインを作成し、`MainActivity.java`にロジックを書いています
@@ -171,5 +171,5 @@
 ```
 
 ## 参考
-* ニフティクラウドmobile backend の[ドキュメント（ファイルストア（Android））](http://mb.cloud.nifty.com/doc/current/filestore/basic_usage_android.html)をご用意していますので、ご活用ください
+* ニフティクラウドmobile backend の[ドキュメント（ファイルストア（Android））](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_android.html)をご用意していますので、ご活用ください
 
