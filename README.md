@@ -1,113 +1,113 @@
-# yAndroidzÊ^‚ğƒNƒ‰ƒEƒh‚É•Û‘¶‚µ‚æ‚¤I
+# ÂyAndroidÂzÅ½ÃŠÂ^â€šÃ°Æ’NÆ’â€°Æ’EÆ’hâ€šÃ‰â€¢Ã›â€˜Â¶â€šÂµâ€šÃ¦â€šÂ¤ÂI
 
-![‰æ‘œ1](/readme-img/OverView.png)
+![â€°Ã¦â€˜Å“1](/readme-img/OverView.png)
 
-## ŠT—v
+## Å Tâ€”v
 
-* [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ìwƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\x‚ğ—˜—p‚µ‚ÄAuB‚Á‚½Ê^‚ğƒNƒ‰ƒEƒh‚É•Û‘¶‚·‚év“à—e‚ğÀ‘•‚µ‚½ƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚Å‚·
-* ŠÈ’P‚È‘€ì‚Å‚·‚®‚É [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ì‹@”\‚ğ‘ÌŒ±‚¢‚½‚¾‚¯‚Ü‚·
+* [Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend](https://mbaas.nifcloud.com/)â€šÃŒÂwÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’Aâ€¹@â€\Âxâ€šÃ°â€”Ëœâ€”pâ€šÂµâ€šÃ„ÂAÂuÅ½Bâ€šÃâ€šÂ½Å½ÃŠÂ^â€šÃ°Æ’NÆ’â€°Æ’EÆ’hâ€šÃ‰â€¢Ã›â€˜Â¶â€šÂ·â€šÃ©Âvâ€œÃ â€”eâ€šÃ°Å½Ã€â€˜â€¢â€šÂµâ€šÂ½Æ’TÆ’â€œÆ’vÆ’â€¹Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃ…â€šÂ·
+* Å Ãˆâ€™Pâ€šÃˆâ€˜â‚¬ÂÃ¬â€šÃ…â€šÂ·â€šÂ®â€šÃ‰ [Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend](https://mbaas.nifcloud.com/)â€šÃŒâ€¹@â€\â€šÃ°â€˜ÃŒÅ’Â±â€šÂ¢â€šÂ½â€šÂ¾â€šÂ¯â€šÃœâ€šÂ·
 
-## ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚Á‚Ä‰½HH
-ƒXƒ}[ƒgƒtƒHƒ“ƒAƒvƒŠ‚ÌƒoƒbƒNƒGƒ“ƒh‹@”\iƒvƒbƒVƒ…’Ê’mEƒf[ƒ^ƒXƒgƒAE‰ïˆõŠÇ—Eƒtƒ@ƒCƒ‹ƒXƒgƒAESNS˜AŒgEˆÊ’uî•ñŒŸõEƒXƒNƒŠƒvƒgj‚ª**ŠJ”­•s—v**A‚µ‚©‚àŠî–{**–³—¿**(’1)‚Åg‚¦‚éƒNƒ‰ƒEƒhƒT[ƒrƒXI¡‰ñ‚Íƒf[ƒ^ƒXƒgƒA‚ğ‘ÌŒ±‚µ‚Ü‚·
+## Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backendâ€šÃâ€šÃ„â€°Â½ÂHÂH
+Æ’XÆ’}Â[Æ’gÆ’tÆ’HÆ’â€œÆ’AÆ’vÆ’Å â€šÃŒÆ’oÆ’bÆ’NÆ’GÆ’â€œÆ’hâ€¹@â€\ÂiÆ’vÆ’bÆ’VÆ’â€¦â€™ÃŠâ€™mÂEÆ’fÂ[Æ’^Æ’XÆ’gÆ’AÂEâ€°Ã¯Ë†ÃµÅ Ã‡â€”ÂÂEÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’AÂESNSËœAÅ’gÂEË†ÃŠâ€™uÂÃ®â€¢Ã±Å’Å¸ÂÃµÂEÆ’XÆ’NÆ’Å Æ’vÆ’gÂjâ€šÂª**Å Jâ€Â­â€¢sâ€”v**ÂAâ€šÂµâ€šÂ©â€šÃ Å Ã®â€“{**â€“Â³â€”Â¿**(â€™Â1)â€šÃ…Å½gâ€šÂ¦â€šÃ©Æ’NÆ’â€°Æ’EÆ’hÆ’TÂ[Æ’rÆ’XÂIÂÂ¡â€°Ã±â€šÃÆ’fÂ[Æ’^Æ’XÆ’gÆ’Aâ€šÃ°â€˜ÃŒÅ’Â±â€šÂµâ€šÃœâ€šÂ·
 
-’1FÚ‚µ‚­‚Í[‚±‚¿‚ç](https://mbaas.nifcloud.com/price.htm)‚ğ‚²——‚­‚¾‚³‚¢
+â€™Â1ÂFÂÃšâ€šÂµâ€šÂ­â€šÃ[â€šÂ±â€šÂ¿â€šÃ§](https://mbaas.nifcloud.com/price.htm)â€šÃ°â€šÂ²â€”â€”â€šÂ­â€šÂ¾â€šÂ³â€šÂ¢
 
-![‰æ‘œ2](/readme-img/SdkTypes.png)
+![â€°Ã¦â€˜Å“2](/readme-img/SdkTypes.png)
 
-## “®ìŠÂ‹«
+## â€œÂ®ÂÃ¬Å Ã‚â€¹Â«
 * Windows 7 Professional
 * Android Studio 1.5
 * Android ver 4x,5x
- * ‚±‚ÌƒTƒ“ƒvƒ‹ƒAƒvƒŠ‚ÍA’[––‚ÌƒJƒƒ‰‚ğg—p‚·‚é‚½‚ßAÀ‹@‚ª•K—v‚Å‚·
+ * â€šÂ±â€šÃŒÆ’TÆ’â€œÆ’vÆ’â€¹Æ’AÆ’vÆ’Å â€šÃÂAâ€™[â€“â€“â€šÃŒÆ’JÆ’ÂÆ’â€°â€šÃ°Å½gâ€”pâ€šÂ·â€šÃ©â€šÂ½â€šÃŸÂAÅ½Ã€â€¹@â€šÂªâ€¢Kâ€”vâ€šÃ…â€šÂ·
 
-¦ã‹L“à—e‚Å“®ìŠm”F‚ğ‚µ‚Ä‚¢‚Ü‚·
+ÂÂ¦ÂÃ£â€¹Lâ€œÃ â€”eâ€šÃ…â€œÂ®ÂÃ¬Å mâ€Fâ€šÃ°â€šÂµâ€šÃ„â€šÂ¢â€šÃœâ€šÂ·
 
 
-## è‡
-### 1. [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ì‰ïˆõ“o˜^‚ÆƒƒOƒCƒ“¨ƒAƒvƒŠì¬
+## Å½Ã¨Ââ€¡
+### 1. [Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend](https://mbaas.nifcloud.com/)â€šÃŒâ€°Ã¯Ë†Ãµâ€œoËœ^â€šÃ†Æ’ÂÆ’OÆ’CÆ’â€œÂÂ¨Æ’AÆ’vÆ’Å ÂÃ¬ÂÂ¬
 
-* ã‹LƒŠƒ“ƒN‚©‚ç‰ïˆõ“o˜^i–³—¿j‚ğ‚µ‚Ü‚·“o˜^‚ª‚Å‚«‚½‚çƒƒOƒCƒ“‚ğ‚·‚é‚Æ‰º}‚Ì‚æ‚¤‚ÉuƒAƒvƒŠ‚ÌV‹Kì¬v‰æ–Ê‚ªo‚é‚Ì‚ÅƒAƒvƒŠ‚ğì¬‚µ‚Ü‚·
+* ÂÃ£â€¹LÆ’Å Æ’â€œÆ’Nâ€šÂ©â€šÃ§â€°Ã¯Ë†Ãµâ€œoËœ^Âiâ€“Â³â€”Â¿Âjâ€šÃ°â€šÂµâ€šÃœâ€šÂ·â€œoËœ^â€šÂªâ€šÃ…â€šÂ«â€šÂ½â€šÃ§Æ’ÂÆ’OÆ’CÆ’â€œâ€šÃ°â€šÂ·â€šÃ©â€šÃ†â€°ÂºÂ}â€šÃŒâ€šÃ¦â€šÂ¤â€šÃ‰ÂuÆ’AÆ’vÆ’Å â€šÃŒÂVâ€¹KÂÃ¬ÂÂ¬Âvâ€°Ã¦â€“ÃŠâ€šÂªÂoâ€šÃ©â€šÃŒâ€šÃ…Æ’AÆ’vÆ’Å â€šÃ°ÂÃ¬ÂÂ¬â€šÂµâ€šÃœâ€šÂ·
 
-![‰æ‘œ3](/readme-img/mBassNewProject.png)
+![â€°Ã¦â€˜Å“3](/readme-img/mBassNewProject.png)
 
-* ƒAƒvƒŠì¬‚³‚ê‚é‚Æ‰º}‚Ì‚æ‚¤‚È‰æ–Ê‚É‚È‚è‚Ü‚·
-* ‚±‚Ì‚Qí—Ş‚ÌAPIƒL[iƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[‚ÆƒNƒ‰ƒCƒAƒ“ƒgƒL[j‚Íæ‚Ù‚ÇƒCƒ“ƒ|[ƒg‚µ‚½AndroidStudio‚Åì¬‚·‚éAndroidƒAƒvƒŠ‚ÉƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚Ì•R•t‚¯‚é‚½‚ßA‚ ‚Æ‚Åg‚¢‚Ü‚·
+* Æ’AÆ’vÆ’Å ÂÃ¬ÂÂ¬â€šÂ³â€šÃªâ€šÃ©â€šÃ†â€°ÂºÂ}â€šÃŒâ€šÃ¦â€šÂ¤â€šÃˆâ€°Ã¦â€“ÃŠâ€šÃ‰â€šÃˆâ€šÃ¨â€šÃœâ€šÂ·
+* â€šÂ±â€šÃŒâ€šQÅ½Ã­â€”Ãâ€šÃŒAPIÆ’LÂ[ÂiÆ’AÆ’vÆ’Å Æ’PÂ[Æ’VÆ’â€¡Æ’â€œÆ’LÂ[â€šÃ†Æ’NÆ’â€°Æ’CÆ’AÆ’â€œÆ’gÆ’LÂ[Âjâ€šÃÂÃ¦â€šÃ™â€šÃ‡Æ’CÆ’â€œÆ’|Â[Æ’gâ€šÂµâ€šÂ½AndroidStudioâ€šÃ…ÂÃ¬ÂÂ¬â€šÂ·â€šÃ©AndroidÆ’AÆ’vÆ’Å â€šÃ‰Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backendâ€šÃŒâ€¢Râ€¢tâ€šÂ¯â€šÃ©â€šÂ½â€šÃŸÂAâ€šÂ â€šÃ†â€šÃ…Å½gâ€šÂ¢â€šÃœâ€šÂ·
 
-![‰æ‘œ4](/readme-img/mBassAPIkey.png)
+![â€°Ã¦â€˜Å“4](/readme-img/mBassAPIkey.png)
 
-* “®ìŠm”FŒã‚ÉÊ^i‰æ‘œj‚ª•Û‘¶‚³‚ê‚éêŠ‚àŠm”F‚µ‚Ä‚¨‚«‚Ü‚µ‚å‚¤
+* â€œÂ®ÂÃ¬Å mâ€FÅ’Ã£â€šÃ‰Å½ÃŠÂ^Âiâ€°Ã¦â€˜Å“Âjâ€šÂªâ€¢Ã›â€˜Â¶â€šÂ³â€šÃªâ€šÃ©ÂÃªÂÅ â€šÃ Å mâ€Fâ€šÂµâ€šÃ„â€šÂ¨â€šÂ«â€šÃœâ€šÂµâ€šÃ¥â€šÂ¤
 
-![‰æ‘œ5](/readme-img/mBassData.png)
+![â€°Ã¦â€˜Å“5](/readme-img/mBassData.png)
 
-### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)‚©‚çƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚Ìƒ_ƒEƒ“ƒ[ƒh
+### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)â€šÂ©â€šÃ§Æ’TÆ’â€œÆ’vÆ’â€¹Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃŒÆ’_Æ’EÆ’â€œÆ’ÂÂ[Æ’h
 
-* ƒvƒƒWƒFƒNƒg‚Ì[Githubƒy[ƒW](https://github.com/ncmbadmin/android_camera_demo.git)‚©‚çuClone or downloadv„uDownload ZIPv‚ğƒNƒŠƒbƒN‚µ‚Ü‚·
-* ƒvƒƒWƒFƒNƒg‚ğ‰ğ“€‚µ‚Ü‚·
+* Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃŒ[GithubÆ’yÂ[Æ’W](https://github.com/ncmbadmin/android_camera_demo.git)â€šÂ©â€šÃ§ÂuClone or downloadÂvÂâ€ÂuDownload ZIPÂvâ€šÃ°Æ’NÆ’Å Æ’bÆ’Nâ€šÂµâ€šÃœâ€šÂ·
+* Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃ°â€°Ã°â€œâ‚¬â€šÂµâ€šÃœâ€šÂ·
 
-### 3. AndroidStudio‚ÅƒAƒvƒŠ‚ğ‹N“®
+### 3. AndroidStudioâ€šÃ…Æ’AÆ’vÆ’Å â€šÃ°â€¹Nâ€œÂ®
 
-* AndroidStudio‚ğŠJ‚«A‰ğ“€‚µ‚½ƒvƒƒWƒFƒNƒg‚ğ‘I‘ğ‚µ‚Ü‚·
+* AndroidStudioâ€šÃ°Å Jâ€šÂ«ÂAâ€°Ã°â€œâ‚¬â€šÂµâ€šÂ½Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃ°â€˜Iâ€˜Ã°â€šÂµâ€šÃœâ€šÂ·
 
-![‰æ‘œ6](/readme-img/SelectProject.png)
+![â€°Ã¦â€˜Å“6](/readme-img/SelectProject.png)
 
-* ƒvƒƒWƒFƒNƒg‚ğŠJ‚«‚Ü‚·
+* Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃ°Å Jâ€šÂ«â€šÃœâ€šÂ·
 
-![‰æ‘œ7](/readme-img/ProjectDesign.png)
+![â€°Ã¦â€˜Å“7](/readme-img/ProjectDesign.png)
 
-### 4. APIƒL[‚Ìİ’è
+### 4. APIÆ’LÂ[â€šÃŒÂÃâ€™Ã¨
 
-* AndroidStudio‚ÅMainActivity.java‚É‚ ‚éAPIƒL[iƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[‚ÆƒNƒ‰ƒCƒAƒ“ƒgƒL[j‚Ìİ’è‚ğ‚µ‚Ü‚·
+* AndroidStudioâ€šÃ…MainActivity.javaâ€šÃ‰â€šÂ â€šÃ©APIÆ’LÂ[ÂiÆ’AÆ’vÆ’Å Æ’PÂ[Æ’VÆ’â€¡Æ’â€œÆ’LÂ[â€šÃ†Æ’NÆ’â€°Æ’CÆ’AÆ’â€œÆ’gÆ’LÂ[Âjâ€šÃŒÂÃâ€™Ã¨â€šÃ°â€šÂµâ€šÃœâ€šÂ·
 
-![‰æ‘œ8](/readme-img/AndroidAPIkey.png)
+![â€°Ã¦â€˜Å“8](/readme-img/AndroidAPIkey.png)
 
-* ‚»‚ê‚¼‚ê`YOUR_APP_KEY`‚Æ`YOUR_CLIENT_KEY`‚Ì•”•ª‚ğ‘‚«Š·‚¦‚Ü‚·
- * ‚±‚Ì‚Æ‚«Aƒ_ƒuƒ‹ƒNƒH[ƒe[ƒVƒ‡ƒ“i`"`j‚ğÁ‚³‚È‚¢‚æ‚¤‚É’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢I
+* â€šÂ»â€šÃªâ€šÂ¼â€šÃª`YOUR_APP_KEY`â€šÃ†`YOUR_CLIENT_KEY`â€šÃŒâ€¢â€â€¢Âªâ€šÃ°Ââ€˜â€šÂ«Å Â·â€šÂ¦â€šÃœâ€šÂ·
+ * â€šÂ±â€šÃŒâ€šÃ†â€šÂ«ÂAÆ’_Æ’uÆ’â€¹Æ’NÆ’HÂ[Æ’eÂ[Æ’VÆ’â€¡Æ’â€œÂi`"`Âjâ€šÃ°ÂÃâ€šÂ³â€šÃˆâ€šÂ¢â€šÃ¦â€šÂ¤â€šÃ‰â€™ÂË†Ã“â€šÂµâ€šÃ„â€šÂ­â€šÂ¾â€šÂ³â€šÂ¢ÂI
 
-* AndroidStudio‚©‚çƒrƒ‹ƒh‚·‚éB
-    * uƒvƒƒWƒFƒNƒgêŠv\app\build\outputs\apk\ ***.apk ƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚é
+* AndroidStudioâ€šÂ©â€šÃ§Æ’rÆ’â€¹Æ’hâ€šÂ·â€šÃ©ÂB
+    * ÂuÆ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gÂÃªÂÅ Âv\app\build\outputs\apk\ ***.apk Æ’tÆ’@Æ’CÆ’â€¹â€šÂªÂÂ¶ÂÂ¬â€šÂ³â€šÃªâ€šÃ©
 
-### 5. “®ìŠm”F
+### 5. â€œÂ®ÂÃ¬Å mâ€F
 
-* ƒAƒvƒŠ‚ª‹N“®‚µ‚½‚çA‡@uCAMERAvƒ{ƒ^ƒ“‚ğƒ^ƒbƒv‚µ‚ÄAÊ^‚ğB‰e‚µ‚Ü‚·
-* Ÿ‚ÉA‡Au•Û‘¶vƒ{ƒ^ƒ“‚ğƒ^ƒbƒv‚µ‚ÄA•Û‘¶‚µ‚Ü‚·(¡‰ñ‚Íƒtƒ@ƒCƒ‹–¼ŒÅ’èF`test.png`)
-* •Û‘¶‚³‚ê‚½‰æ‘œ‚ª‹N“®‰æ–Ê‚É•\¦‚³‚ê‚Ü‚·
+* Æ’AÆ’vÆ’Å â€šÂªâ€¹Nâ€œÂ®â€šÂµâ€šÂ½â€šÃ§ÂAâ€¡@ÂuCAMERAÂvÆ’{Æ’^Æ’â€œâ€šÃ°Æ’^Æ’bÆ’vâ€šÂµâ€šÃ„ÂAÅ½ÃŠÂ^â€šÃ°Å½Bâ€°eâ€šÂµâ€šÃœâ€šÂ·
+* Å½Å¸â€šÃ‰ÂAâ€¡AÂuâ€¢Ã›â€˜Â¶ÂvÆ’{Æ’^Æ’â€œâ€šÃ°Æ’^Æ’bÆ’vâ€šÂµâ€šÃ„ÂAâ€¢Ã›â€˜Â¶â€šÂµâ€šÃœâ€šÂ·(ÂÂ¡â€°Ã±â€šÃÆ’tÆ’@Æ’CÆ’â€¹â€“Â¼Å’Ã…â€™Ã¨ÂF`test.png`)
+* â€¢Ã›â€˜Â¶â€šÂ³â€šÃªâ€šÂ½â€°Ã¦â€˜Å“â€šÂªâ€¹Nâ€œÂ®â€°Ã¦â€“ÃŠâ€šÃ‰â€¢\Å½Â¦â€šÂ³â€šÃªâ€šÃœâ€šÂ·
 
-![‰æ‘œ9](/readme-img/AndroidCamera.png)
+![â€°Ã¦â€˜Å“9](/readme-img/AndroidCamera.png)
 
 -----
 
-* •Û‘¶‚É¬Œ÷‚µ‚½‚çA[ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ìƒ_ƒbƒVƒ…ƒ{[ƒh‚©‚çuƒtƒ@ƒCƒ‹ƒXƒgƒAv‚ğŠm”F‚µ‚Ä‚İ‚Ü‚µ‚å‚¤I
+* â€¢Ã›â€˜Â¶â€šÃ‰ÂÂ¬Å’Ã·â€šÂµâ€šÂ½â€šÃ§ÂA[Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend](https://mbaas.nifcloud.com/)â€šÃŒÆ’_Æ’bÆ’VÆ’â€¦Æ’{Â[Æ’hâ€šÂ©â€šÃ§ÂuÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’AÂvâ€šÃ°Å mâ€Fâ€šÂµâ€šÃ„â€šÃâ€šÃœâ€šÂµâ€šÃ¥â€šÂ¤ÂI
 
-![‰æ‘œ10](/readme-img/mBassFileStore.png)
+![â€°Ã¦â€˜Å“10](/readme-img/mBassFileStore.png)
 
-* ŠÈ’P‚ÉÊ^‚ªƒNƒ‰ƒEƒh‚É•Û‘¶‚Å‚«‚Ü‚µ‚½™š
+* Å Ãˆâ€™Pâ€šÃ‰Å½ÃŠÂ^â€šÂªÆ’NÆ’â€°Æ’EÆ’hâ€šÃ‰â€¢Ã›â€˜Â¶â€šÃ…â€šÂ«â€šÃœâ€šÂµâ€šÂ½Ââ„¢ÂÅ¡
 
-## ‰ğà
-ƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚ÉÀ‘•Ï‚İ‚Ì“à—e‚Ì‚²Ğ‰î
+## â€°Ã°ÂÃ 
+Æ’TÆ’â€œÆ’vÆ’â€¹Æ’vÆ’ÂÆ’WÆ’FÆ’NÆ’gâ€šÃ‰Å½Ã€â€˜â€¢ÂÃâ€šÃâ€šÃŒâ€œÃ â€”eâ€šÃŒâ€šÂ²ÂÃâ€°Ã®
 
-#### SDK‚ÌƒCƒ“ƒ|[ƒg‚Æ‰Šúİ’è
-* ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend ‚Ì[ƒhƒLƒ…ƒƒ“ƒgiƒNƒCƒbƒNƒXƒ^[ƒgj](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_android.html#/Android/)‚ğ‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚²Šˆ—p‚­‚¾‚³‚¢
+#### SDKâ€šÃŒÆ’CÆ’â€œÆ’|Â[Æ’gâ€šÃ†Ââ€°Å ÃºÂÃâ€™Ã¨
+* Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend â€šÃŒ[Æ’hÆ’LÆ’â€¦Æ’ÂÆ’â€œÆ’gÂiÆ’NÆ’CÆ’bÆ’NÆ’XÆ’^Â[Æ’gÂj](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_android.html#/Android/)â€šÃ°â€šÂ²â€”pË†Ã“â€šÂµâ€šÃ„â€šÂ¢â€šÃœâ€šÂ·â€šÃŒâ€šÃ…ÂAâ€šÂ²Å Ë†â€”pâ€šÂ­â€šÂ¾â€šÂ³â€šÂ¢
 
-#### ƒƒWƒbƒN
- * `activity_main.xml`‚ÅƒfƒUƒCƒ“‚ğì¬‚µA`MainActivity.java`‚ÉƒƒWƒbƒN‚ğ‘‚¢‚Ä‚¢‚Ü‚·
- * Ê^‚ğƒNƒ‰ƒEƒh‚É•Û‘¶‚·‚éˆ—‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‹Lq‚³‚ê‚Ü‚·
+#### Æ’ÂÆ’WÆ’bÆ’N
+ * `activity_main.xml`â€šÃ…Æ’fÆ’UÆ’CÆ’â€œâ€šÃ°ÂÃ¬ÂÂ¬â€šÂµÂA`MainActivity.java`â€šÃ‰Æ’ÂÆ’WÆ’bÆ’Nâ€šÃ°Ââ€˜â€šÂ¢â€šÃ„â€šÂ¢â€šÃœâ€šÂ·
+ * Å½ÃŠÂ^â€šÃ°Æ’NÆ’â€°Æ’EÆ’hâ€šÃ‰â€¢Ã›â€˜Â¶â€šÂ·â€šÃ©ÂË†â€”Ââ€šÃË†Ãˆâ€°Âºâ€šÃŒâ€šÃ¦â€šÂ¤â€šÃ‰â€¹LÂqâ€šÂ³â€šÃªâ€šÃœâ€šÂ·
 
-‚Pjƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh
+â€šPÂjÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’Aâ€šÃ–â€šÃŒÆ’AÆ’bÆ’vÆ’ÂÂ[Æ’h
 
-* mBaaS‚ÌAndroid SDK‚ª’ñ‹Ÿ‚·‚éAƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\‚ğ—˜—p‚·‚éê‡‚ÍNCMBFile‚ğg—p‚µ‚Ü‚·
-* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh‚·‚é‚É‚ÍA‚±‚ÌƒNƒ‰ƒX‚ª’ñ‹Ÿ‚·‚ésaveInBackgroundƒƒ\ƒbƒh‚ğ—˜—p‚µ‚Ü‚·
-* saveInBackground()‚ğÀ{‚·‚é‚±‚Æ‚ÅA”ñ“¯Šú‚É•Û‘¶‚ªs‚í‚ê‚Ü‚·”ñ“¯ŠúÀ{‚·‚é‚½‚ßADoneCallBack()‚ğg‚Á‚ÄA¬Œ÷E¸”sˆ—‚ğw’è‚µ‚Ü‚·
- - ƒtƒ@ƒCƒ‹•Û‘¶‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹‚Ìæ“¾‚ğs‚¢‚Ü‚·(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
- - ƒtƒ@ƒCƒ‹•Û‘¶‚É¸”s‚µ‚½ê‡AƒAƒ‰[ƒg‚Å•Û‘¶¸”s‚ğ•\¦‚µ‚Ü‚·
-* ƒtƒ@ƒCƒ‹–¼‚ğŒÅ’è‚µ‚Ä‚¢‚é‚½‚ßAV‚µ‚­ƒtƒ@ƒCƒ‹i‰æ‘œj‚ğ•Û‘¶‚·‚é‚Æã‘‚«‚³‚ê‚Ü‚·
+* mBaaSâ€šÃŒAndroid SDKâ€šÂªâ€™Ã±â€¹Å¸â€šÂ·â€šÃ©ÂAÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’Aâ€¹@â€\â€šÃ°â€”Ëœâ€”pâ€šÂ·â€šÃ©ÂÃªÂâ€¡â€šÃNCMBFileâ€šÃ°Å½gâ€”pâ€šÂµâ€šÃœâ€šÂ·
+* Æ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’Aâ€šÃ–â€šÃŒÆ’AÆ’bÆ’vÆ’ÂÂ[Æ’hâ€šÂ·â€šÃ©â€šÃ‰â€šÃÂAâ€šÂ±â€šÃŒÆ’NÆ’â€°Æ’Xâ€šÂªâ€™Ã±â€¹Å¸â€šÂ·â€šÃ©saveInBackgroundÆ’ÂÆ’\Æ’bÆ’hâ€šÃ°â€”Ëœâ€”pâ€šÂµâ€šÃœâ€šÂ·
+* saveInBackground()â€šÃ°Å½Ã€Å½{â€šÂ·â€šÃ©â€šÂ±â€šÃ†â€šÃ…ÂAâ€Ã±â€œÂ¯Å Ãºâ€šÃ‰â€¢Ã›â€˜Â¶â€šÂªÂsâ€šÃ­â€šÃªâ€šÃœâ€šÂ·â€Ã±â€œÂ¯Å ÃºÅ½Ã€Å½{â€šÂ·â€šÃ©â€šÂ½â€šÃŸÂADoneCallBack()â€šÃ°Å½gâ€šÃâ€šÃ„ÂAÂÂ¬Å’Ã·ÂEÅ½Â¸â€sÂË†â€”Ââ€šÃ°Å½wâ€™Ã¨â€šÂµâ€šÃœâ€šÂ·
+ - Æ’tÆ’@Æ’CÆ’â€¹â€¢Ã›â€˜Â¶â€šÃ‰ÂÂ¬Å’Ã·â€šÂµâ€šÂ½ÂÃªÂâ€¡â€šÃÂAÆ’tÆ’@Æ’CÆ’â€¹â€šÃŒÅ½Ã¦â€œÂ¾â€šÃ°Âsâ€šÂ¢â€šÃœâ€šÂ·(ÂÂ¡â€°Ã±â€¢Ã›â€˜Â¶â€šÂµâ€šÂ½Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼ÂF`test.png`)
+ - Æ’tÆ’@Æ’CÆ’â€¹â€¢Ã›â€˜Â¶â€šÃ‰Å½Â¸â€sâ€šÂµâ€šÂ½ÂÃªÂâ€¡ÂAÆ’AÆ’â€°Â[Æ’gâ€šÃ…â€¢Ã›â€˜Â¶Å½Â¸â€sâ€šÃ°â€¢\Å½Â¦â€šÂµâ€šÃœâ€šÂ·
+* Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼â€šÃ°Å’Ã…â€™Ã¨â€šÂµâ€šÃ„â€šÂ¢â€šÃ©â€šÂ½â€šÃŸÂAÂVâ€šÂµâ€šÂ­Æ’tÆ’@Æ’CÆ’â€¹Âiâ€°Ã¦â€˜Å“Âjâ€šÃ°â€¢Ã›â€˜Â¶â€šÂ·â€šÃ©â€šÃ†ÂÃ£Ââ€˜â€šÂ«â€šÂ³â€šÃªâ€šÃœâ€šÂ·
 
-‚QjƒAƒbƒvƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ğæ“¾
+â€šQÂjÆ’AÆ’bÆ’vÆ’ÂÂ[Æ’hâ€šÂµâ€šÂ½Æ’tÆ’@Æ’CÆ’â€¹â€šÃ°Å½Ã¦â€œÂ¾
 
-* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚É•Û‘¶‚µ‚½‚à‚Ì‚ğæ“¾‚·‚é‚É‚ÍAfetchƒƒ\ƒbƒh‚ğ—˜—p‚µ‚Ü‚·
-* fetchInBackgroundƒƒ\ƒbƒh‚Å‚Ì”ñ“¯Šúˆ—‚à‰Â”\‚Å‚·(¡‰ñ—˜—p)
- - ƒtƒ@ƒCƒ‹‚Ìæ“¾‚É‚ÍAƒtƒ@ƒCƒ‹–¼‚ğæ‚Éæ“¾‚·‚é•K—v‚ª‚ ‚è‚Ü‚·(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
- - ƒtƒ@ƒCƒ‹æ“¾‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹æ“¾E•\¦‚µ‚Ü‚·
- - ƒtƒ@ƒCƒ‹æ“¾‚É¸”s‚µ‚½ê‡AƒAƒ‰[ƒg‚Å¸”s‚ğ•\¦‚µ‚Ü‚·
+* Æ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’Aâ€šÃ‰â€¢Ã›â€˜Â¶â€šÂµâ€šÂ½â€šÃ â€šÃŒâ€šÃ°Å½Ã¦â€œÂ¾â€šÂ·â€šÃ©â€šÃ‰â€šÃÂAfetchÆ’ÂÆ’\Æ’bÆ’hâ€šÃ°â€”Ëœâ€”pâ€šÂµâ€šÃœâ€šÂ·
+* fetchInBackgroundÆ’ÂÆ’\Æ’bÆ’hâ€šÃ…â€šÃŒâ€Ã±â€œÂ¯Å ÃºÂË†â€”Ââ€šÃ â€°Ã‚â€\â€šÃ…â€šÂ·(ÂÂ¡â€°Ã±â€”Ëœâ€”p)
+ - Æ’tÆ’@Æ’CÆ’â€¹â€šÃŒÅ½Ã¦â€œÂ¾Å½Å¾â€šÃ‰â€šÃÂAÆ’tÆ’@Æ’CÆ’â€¹â€“Â¼â€šÃ°ÂÃ¦â€šÃ‰Å½Ã¦â€œÂ¾â€šÂ·â€šÃ©â€¢Kâ€”vâ€šÂªâ€šÂ â€šÃ¨â€šÃœâ€šÂ·(ÂÂ¡â€°Ã±â€¢Ã›â€˜Â¶â€šÂµâ€šÂ½Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼ÂF`test.png`)
+ - Æ’tÆ’@Æ’CÆ’â€¹Å½Ã¦â€œÂ¾â€šÃ‰ÂÂ¬Å’Ã·â€šÂµâ€šÂ½ÂÃªÂâ€¡â€šÃÂAÆ’tÆ’@Æ’CÆ’â€¹Å½Ã¦â€œÂ¾ÂEâ€¢\Å½Â¦â€šÂµâ€šÃœâ€šÂ·
+ - Æ’tÆ’@Æ’CÆ’â€¹Å½Ã¦â€œÂ¾â€šÃ‰Å½Â¸â€sâ€šÂµâ€šÂ½ÂÃªÂâ€¡ÂAÆ’AÆ’â€°Â[Æ’gâ€šÃ…Å½Â¸â€sâ€šÃ°â€¢\Å½Â¦â€šÂµâ€šÃœâ€šÂ·
  
 ```java
 
@@ -123,53 +123,63 @@
             bp.compress(Bitmap.CompressFormat.PNG, 0, byteArrayStream);
             byte[] dataByte = byteArrayStream.toByteArray();
 
-            //ACL “Ç‚İ‚İ:‰Â , ‘‚«‚İ:‰Â
+            //ACL èª­ã¿è¾¼ã¿:å¯ , æ›¸ãè¾¼ã¿:å¯
             NCMBAcl acl = new NCMBAcl();
             acl.setPublicReadAccess(true);
             acl.setPublicWriteAccess(true);
 
-            //’ÊMÀ{
-            final NCMBFile file = new NCMBFile("test.png", dataByte, acl);
-            file.saveInBackground(new DoneCallback() {
-                @Override
-                public void done(NCMBException e) {
-                    String result;
-                    if (e != null) {
-                        //•Û‘¶¸”s
-                        new AlertDialog.Builder(MainActivity.this)
-                                .setTitle("Notification from Nifty")
-                                .setMessage("Error:" + e.getMessage())
-                                .setPositiveButton("OK", null)
-                                .show();
-                    } else {
-                        //******* NCMB file download *******
-                        NCMBFile file = new NCMBFile("test.png");
-                        file.fetchInBackground(new FetchFileCallback() {
-                            @Override
-                            public void done(byte[] dataFetch, NCMBException er) {
-                                if (er != null) {
-                                    //¸”sˆ—
-                                    new AlertDialog.Builder(MainActivity.this)
-                                            .setTitle("Notification from Nifty")
-                                            .setMessage("Error:" + er.getMessage())
-                                            .setPositiveButton("OK", null)
-                                            .show();
-                                } else {
-                                    //¬Œ÷ˆ—
-                                    Bitmap bMap = BitmapFactory.decodeByteArray(dataFetch, 0, dataFetch.length);
-                                    iv.setImageBitmap(bMap);
-                                }
+            //é€šä¿¡å®Ÿæ–½
+            final NCMBFile file;
+            try {
+                file = new NCMBFile("test.png", dataByte, acl);
+                file.saveInBackground(new DoneCallback() {
+                    @Override
+                    public void done(NCMBException e) {
+                        String result;
+                        if (e != null) {
+                            //ä¿å­˜å¤±æ•—
+                            new AlertDialog.Builder(MainActivity.this)
+                                    .setTitle("Notification from Nifty")
+                                    .setMessage("Error:" + e.getMessage())
+                                    .setPositiveButton("OK", null)
+                                    .show();
+                        } else {
+                            //******* NCMB file download *******
+                            NCMBFile file = null;
+                            try {
+                                file = new NCMBFile("test.png");
+                                file.fetchInBackground(new FetchFileCallback() {
+                                    @Override
+                                    public void done(byte[] dataFetch, NCMBException er) {
+                                        if (er != null) {
+                                            //å¤±æ•—å‡¦ç†
+                                            new AlertDialog.Builder(MainActivity.this)
+                                                    .setTitle("Notification from Nifty")
+                                                    .setMessage("Error:" + er.getMessage())
+                                                    .setPositiveButton("OK", null)
+                                                    .show();
+                                        } else {
+                                            //æˆåŠŸå‡¦ç†
+                                            Bitmap bMap = BitmapFactory.decodeByteArray(dataFetch, 0, dataFetch.length);
+                                            iv.setImageBitmap(bMap);
+                                        }
+                                    }
+                                });
+                            } catch (NCMBException e1) {
+                                e1.printStackTrace();
                             }
-                        });
-
-
+                        }
                     }
-                }
-            });
+                });
+            } catch (NCMBException e) {
+                e.printStackTrace();
+            }
+
         }
+
     }
 ```
 
-## Ql
-* ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend ‚Ì[ƒhƒLƒ…ƒƒ“ƒgiƒtƒ@ƒCƒ‹ƒXƒgƒAiAndroidjj](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_android.html)‚ğ‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚²Šˆ—p‚­‚¾‚³‚¢
+## Å½QÂl
+* Æ’jÆ’tÆ’eÆ’BÆ’NÆ’â€°Æ’EÆ’hmobile backend â€šÃŒ[Æ’hÆ’LÆ’â€¦Æ’ÂÆ’â€œÆ’gÂiÆ’tÆ’@Æ’CÆ’â€¹Æ’XÆ’gÆ’AÂiAndroidÂjÂj](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_android.html)â€šÃ°â€šÂ²â€”pË†Ã“â€šÂµâ€šÃ„â€šÂ¢â€šÃœâ€šÂ·â€šÃŒâ€šÃ…ÂAâ€šÂ²Å Ë†â€”pâ€šÂ­â€šÂ¾â€šÂ³â€šÂ¢
 
