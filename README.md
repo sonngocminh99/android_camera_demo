@@ -1,113 +1,113 @@
-# yAndroidzŽÊ^‚ðƒNƒ‰ƒEƒh‚É•Û‘¶‚µ‚æ‚¤I
+# 【Android】写真をクラウドに保存しよう！
 
-![‰æ‘œ1](/readme-img/OverView.png)
+![画像1](/readme-img/OverView.png)
 
-## ŠT—v
+## 概要
 
-* [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ìwƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\x‚ð—˜—p‚µ‚ÄAuŽB‚Á‚½ŽÊ^‚ðƒNƒ‰ƒEƒh‚É•Û‘¶‚·‚év“à—e‚ðŽÀ‘•‚µ‚½ƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚Å‚·
-* ŠÈ’P‚È‘€ì‚Å‚·‚®‚É [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ì‹@”\‚ð‘ÌŒ±‚¢‚½‚¾‚¯‚Ü‚·
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の『ファイルストア機能』を利用して、「撮った写真をクラウドに保存する」内容を実装したサンプルプロジェクトです
+* 簡単な操作ですぐに [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の機能を体験いただけます
 
-## ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚Á‚Ä‰½HH
-ƒXƒ}[ƒgƒtƒHƒ“ƒAƒvƒŠ‚ÌƒoƒbƒNƒGƒ“ƒh‹@”\iƒvƒbƒVƒ…’Ê’mEƒf[ƒ^ƒXƒgƒAE‰ïˆõŠÇ—Eƒtƒ@ƒCƒ‹ƒXƒgƒAESNS˜AŒgEˆÊ’uî•ñŒŸõEƒXƒNƒŠƒvƒgj‚ª**ŠJ”­•s—v**A‚µ‚©‚àŠî–{**–³—¿**(’1)‚ÅŽg‚¦‚éƒNƒ‰ƒEƒhƒT[ƒrƒXI¡‰ñ‚Íƒf[ƒ^ƒXƒgƒA‚ð‘ÌŒ±‚µ‚Ü‚·
+## ニフクラ mobile backendって何？？
+スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
 
-’1FÚ‚µ‚­‚Í[‚±‚¿‚ç](https://mbaas.nifcloud.com/price.htm)‚ð‚²——‚­‚¾‚³‚¢
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
 
-![‰æ‘œ2](/readme-img/SdkTypes.png)
+![画像2](/readme-img/SdkTypes.png)
 
-## “®ìŠÂ‹«
+## 動作環境
 * Windows 7 Professional
 * Android Studio 1.5
 * Android ver 4x,5x
- * ‚±‚ÌƒTƒ“ƒvƒ‹ƒAƒvƒŠ‚ÍA’[––‚ÌƒJƒƒ‰‚ðŽg—p‚·‚é‚½‚ßAŽÀ‹@‚ª•K—v‚Å‚·
+ * このサンプルアプリは、端末のカメラを使用するため、実機が必要です
 
-¦ã‹L“à—e‚Å“®ìŠm”F‚ð‚µ‚Ä‚¢‚Ü‚·
+※上記内容で動作確認をしています
 
 
-## Žè‡
-### 1. [ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ì‰ïˆõ“o˜^‚ÆƒƒOƒCƒ“¨ƒAƒvƒŠì¬
+## 手順
+### 1. [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン→アプリ作成
 
-* ã‹LƒŠƒ“ƒN‚©‚ç‰ïˆõ“o˜^i–³—¿j‚ð‚µ‚Ü‚·“o˜^‚ª‚Å‚«‚½‚çƒƒOƒCƒ“‚ð‚·‚é‚Æ‰º}‚Ì‚æ‚¤‚ÉuƒAƒvƒŠ‚ÌV‹Kì¬v‰æ–Ê‚ªo‚é‚Ì‚ÅƒAƒvƒŠ‚ðì¬‚µ‚Ü‚·
+* 上記リンクから会員登録（無料）をします登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
-![‰æ‘œ3](/readme-img/mBassNewProject.png)
+![画像3](/readme-img/mBassNewProject.png)
 
-* ƒAƒvƒŠì¬‚³‚ê‚é‚Æ‰º}‚Ì‚æ‚¤‚È‰æ–Ê‚É‚È‚è‚Ü‚·
-* ‚±‚Ì‚QŽí—Þ‚ÌAPIƒL[iƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[‚ÆƒNƒ‰ƒCƒAƒ“ƒgƒL[j‚Íæ‚Ù‚ÇƒCƒ“ƒ|[ƒg‚µ‚½AndroidStudio‚Åì¬‚·‚éAndroidƒAƒvƒŠ‚ÉƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend‚Ì•R•t‚¯‚é‚½‚ßA‚ ‚Æ‚ÅŽg‚¢‚Ü‚·
+* アプリ作成されると下図のような画面になります
+* この２種類のAPIキー（アプリケーションキーとクライアントキー）は先ほどインポートしたAndroidStudioで作成するAndroidアプリにニフクラ mobile backendの紐付けるため、あとで使います
 
-![‰æ‘œ4](/readme-img/mBassAPIkey.png)
+![画像4](/readme-img/mBassAPIkey.png)
 
-* “®ìŠm”FŒã‚ÉŽÊ^i‰æ‘œj‚ª•Û‘¶‚³‚ê‚éêŠ‚àŠm”F‚µ‚Ä‚¨‚«‚Ü‚µ‚å‚¤
+* 動作確認後に写真（画像）が保存される場所も確認しておきましょう
 
-![‰æ‘œ5](/readme-img/mBassData.png)
+![画像5](/readme-img/mBassData.png)
 
-### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)‚©‚çƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚Ìƒ_ƒEƒ“ƒ[ƒh
+### 2. [GitHub](https://github.com/ncmbadmin/android_camera_demo.git)からサンプルプロジェクトのダウンロード
 
-* ƒvƒƒWƒFƒNƒg‚Ì[Githubƒy[ƒW](https://github.com/ncmbadmin/android_camera_demo.git)‚©‚çuClone or downloadv„uDownload ZIPv‚ðƒNƒŠƒbƒN‚µ‚Ü‚·
-* ƒvƒƒWƒFƒNƒg‚ð‰ð“€‚µ‚Ü‚·
+* プロジェクトの[Githubページ](https://github.com/ncmbadmin/android_camera_demo.git)から「Clone or download」＞「Download ZIP」をクリックします
+* プロジェクトを解凍します
 
-### 3. AndroidStudio‚ÅƒAƒvƒŠ‚ð‹N“®
+### 3. AndroidStudioでアプリを起動
 
-* AndroidStudio‚ðŠJ‚«A‰ð“€‚µ‚½ƒvƒƒWƒFƒNƒg‚ð‘I‘ð‚µ‚Ü‚·
+* AndroidStudioを開き、解凍したプロジェクトを選択します
 
-![‰æ‘œ6](/readme-img/SelectProject.png)
+![画像6](/readme-img/SelectProject.png)
 
-* ƒvƒƒWƒFƒNƒg‚ðŠJ‚«‚Ü‚·
+* プロジェクトを開きます
 
-![‰æ‘œ7](/readme-img/ProjectDesign.png)
+![画像7](/readme-img/ProjectDesign.png)
 
-### 4. APIƒL[‚ÌÝ’è
+### 4. APIキーの設定
 
-* AndroidStudio‚ÅMainActivity.java‚É‚ ‚éAPIƒL[iƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒL[‚ÆƒNƒ‰ƒCƒAƒ“ƒgƒL[j‚ÌÝ’è‚ð‚µ‚Ü‚·
+* AndroidStudioでMainActivity.javaにあるAPIキー（アプリケーションキーとクライアントキー）の設定をします
 
-![‰æ‘œ8](/readme-img/AndroidAPIkey.png)
+![画像8](/readme-img/AndroidAPIkey.png)
 
-* ‚»‚ê‚¼‚ê`YOUR_APP_KEY`‚Æ`YOUR_CLIENT_KEY`‚Ì•”•ª‚ð‘‚«Š·‚¦‚Ü‚·
- * ‚±‚Ì‚Æ‚«Aƒ_ƒuƒ‹ƒNƒH[ƒe[ƒVƒ‡ƒ“i`"`j‚ðÁ‚³‚È‚¢‚æ‚¤‚É’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢I
+* それぞれ`YOUR_APP_KEY`と`YOUR_CLIENT_KEY`の部分を書き換えます
+ * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
 
-* AndroidStudio‚©‚çƒrƒ‹ƒh‚·‚éB
-    * uƒvƒƒWƒFƒNƒgêŠv\app\build\outputs\apk\ ***.apk ƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚é
+* AndroidStudioからビルドする。
+    * 「プロジェクト場所」\app\build\outputs\apk\ ***.apk ファイルが生成される
 
-### 5. “®ìŠm”F
+### 5. 動作確認
 
-* ƒAƒvƒŠ‚ª‹N“®‚µ‚½‚çA‡@uCAMERAvƒ{ƒ^ƒ“‚ðƒ^ƒbƒv‚µ‚ÄAŽÊ^‚ðŽB‰e‚µ‚Ü‚·
-* ŽŸ‚ÉA‡Au•Û‘¶vƒ{ƒ^ƒ“‚ðƒ^ƒbƒv‚µ‚ÄA•Û‘¶‚µ‚Ü‚·(¡‰ñ‚Íƒtƒ@ƒCƒ‹–¼ŒÅ’èF`test.png`)
-* •Û‘¶‚³‚ê‚½‰æ‘œ‚ª‹N“®‰æ–Ê‚É•\Ž¦‚³‚ê‚Ü‚·
+* アプリが起動したら、①「CAMERA」ボタンをタップして、写真を撮影します
+* 次に、②「保存」ボタンをタップして、保存します(今回はファイル名固定：`test.png`)
+* 保存された画像が起動画面に表示されます
 
-![‰æ‘œ9](/readme-img/AndroidCamera.png)
+![画像9](/readme-img/AndroidCamera.png)
 
 -----
 
-* •Û‘¶‚É¬Œ÷‚µ‚½‚çA[ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend](https://mbaas.nifcloud.com/)‚Ìƒ_ƒbƒVƒ…ƒ{[ƒh‚©‚çuƒtƒ@ƒCƒ‹ƒXƒgƒAv‚ðŠm”F‚µ‚Ä‚Ý‚Ü‚µ‚å‚¤I
+* 保存に成功したら、[ニフクラ mobile backend](https://mbaas.nifcloud.com/)のダッシュボードから「ファイルストア」を確認してみましょう！
 
-![‰æ‘œ10](/readme-img/mBassFileStore.png)
+![画像10](/readme-img/mBassFileStore.png)
 
-* ŠÈ’P‚ÉŽÊ^‚ªƒNƒ‰ƒEƒh‚É•Û‘¶‚Å‚«‚Ü‚µ‚½™š
+* 簡単に写真がクラウドに保存できました☆★
 
-## ‰ðà
-ƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg‚ÉŽÀ‘•Ï‚Ý‚Ì“à—e‚Ì‚²Ð‰î
+## 解説
+サンプルプロジェクトに実装済みの内容のご紹介
 
-#### SDK‚ÌƒCƒ“ƒ|[ƒg‚Æ‰ŠúÝ’è
-* ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend ‚Ì[ƒhƒLƒ…ƒƒ“ƒgiƒNƒCƒbƒNƒXƒ^[ƒgj](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_android.html#/Android/)‚ð‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚²Šˆ—p‚­‚¾‚³‚¢
+#### SDKのインポートと初期設定
+* ニフクラ mobile backend の[ドキュメント（クイックスタート）](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_android.html#/Android/)をご用意していますので、ご活用ください
 
-#### ƒƒWƒbƒN
- * `activity_main.xml`‚ÅƒfƒUƒCƒ“‚ðì¬‚µA`MainActivity.java`‚ÉƒƒWƒbƒN‚ð‘‚¢‚Ä‚¢‚Ü‚·
- * ŽÊ^‚ðƒNƒ‰ƒEƒh‚É•Û‘¶‚·‚éˆ—‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‹Lq‚³‚ê‚Ü‚·
+#### ロジック
+ * `activity_main.xml`でデザインを作成し、`MainActivity.java`にロジックを書いています
+ * 写真をクラウドに保存する処理は以下のように記述されます
 
-‚Pjƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh
+１）ファイルストアへのアップロード
 
-* mBaaS‚ÌAndroid SDK‚ª’ñ‹Ÿ‚·‚éAƒtƒ@ƒCƒ‹ƒXƒgƒA‹@”\‚ð—˜—p‚·‚éê‡‚ÍNCMBFile‚ðŽg—p‚µ‚Ü‚·
-* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚Ö‚ÌƒAƒbƒvƒ[ƒh‚·‚é‚É‚ÍA‚±‚ÌƒNƒ‰ƒX‚ª’ñ‹Ÿ‚·‚ésaveInBackgroundƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ü‚·
-* saveInBackground()‚ðŽÀŽ{‚·‚é‚±‚Æ‚ÅA”ñ“¯Šú‚É•Û‘¶‚ªs‚í‚ê‚Ü‚·”ñ“¯ŠúŽÀŽ{‚·‚é‚½‚ßADoneCallBack()‚ðŽg‚Á‚ÄA¬Œ÷EŽ¸”sˆ—‚ðŽw’è‚µ‚Ü‚·
- - ƒtƒ@ƒCƒ‹•Û‘¶‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹‚ÌŽæ“¾‚ðs‚¢‚Ü‚·(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
- - ƒtƒ@ƒCƒ‹•Û‘¶‚ÉŽ¸”s‚µ‚½ê‡AƒAƒ‰[ƒg‚Å•Û‘¶Ž¸”s‚ð•\Ž¦‚µ‚Ü‚·
-* ƒtƒ@ƒCƒ‹–¼‚ðŒÅ’è‚µ‚Ä‚¢‚é‚½‚ßAV‚µ‚­ƒtƒ@ƒCƒ‹i‰æ‘œj‚ð•Û‘¶‚·‚é‚Æã‘‚«‚³‚ê‚Ü‚·
+* mBaaSのAndroid SDKが提供する、ファイルストア機能を利用する場合はNCMBFileを使用します
+* ファイルストアへのアップロードするには、このクラスが提供するsaveInBackgroundメソッドを利用します
+* saveInBackground()を実施することで、非同期に保存が行われます非同期実施するため、DoneCallBack()を使って、成功・失敗処理を指定します
+ - ファイル保存に成功した場合は、ファイルの取得を行います(今回保存したファイル名：`test.png`)
+ - ファイル保存に失敗した場合、アラートで保存失敗を表示します
+* ファイル名を固定しているため、新しくファイル（画像）を保存すると上書きされます
 
-‚QjƒAƒbƒvƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ðŽæ“¾
+２）アップロードしたファイルを取得
 
-* ƒtƒ@ƒCƒ‹ƒXƒgƒA‚É•Û‘¶‚µ‚½‚à‚Ì‚ðŽæ“¾‚·‚é‚É‚ÍAfetchƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ü‚·
-* fetchInBackgroundƒƒ\ƒbƒh‚Å‚Ì”ñ“¯Šúˆ—‚à‰Â”\‚Å‚·(¡‰ñ—˜—p)
- - ƒtƒ@ƒCƒ‹‚ÌŽæ“¾Žž‚É‚ÍAƒtƒ@ƒCƒ‹–¼‚ðæ‚ÉŽæ“¾‚·‚é•K—v‚ª‚ ‚è‚Ü‚·(¡‰ñ•Û‘¶‚µ‚½ƒtƒ@ƒCƒ‹–¼F`test.png`)
- - ƒtƒ@ƒCƒ‹Žæ“¾‚É¬Œ÷‚µ‚½ê‡‚ÍAƒtƒ@ƒCƒ‹Žæ“¾E•\Ž¦‚µ‚Ü‚·
- - ƒtƒ@ƒCƒ‹Žæ“¾‚ÉŽ¸”s‚µ‚½ê‡AƒAƒ‰[ƒg‚ÅŽ¸”s‚ð•\Ž¦‚µ‚Ü‚·
+* ファイルストアに保存したものを取得するには、fetchメソッドを利用します
+* fetchInBackgroundメソッドでの非同期処理も可能です(今回利用)
+ - ファイルの取得時には、ファイル名を先に取得する必要があります(今回保存したファイル名：`test.png`)
+ - ファイル取得に成功した場合は、ファイル取得・表示します
+ - ファイル取得に失敗した場合、アラートで失敗を表示します
  
 ```java
 
@@ -180,6 +180,6 @@
     }
 ```
 
-## ŽQl
-* ƒjƒtƒeƒBƒNƒ‰ƒEƒhmobile backend ‚Ì[ƒhƒLƒ…ƒƒ“ƒgiƒtƒ@ƒCƒ‹ƒXƒgƒAiAndroidjj](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_android.html)‚ð‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚²Šˆ—p‚­‚¾‚³‚¢
+## 参考
+* ニフクラ mobile backend の[ドキュメント（ファイルストア（Android））](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_android.html)をご用意していますので、ご活用ください
 
