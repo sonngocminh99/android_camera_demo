@@ -139,7 +139,7 @@
                         if (e != null) {
                             //保存失敗
                             new AlertDialog.Builder(MainActivity.this)
-                                    .setTitle("Notification from Nifty")
+                                    .setTitle("Notification from NifCloud")
                                     .setMessage("Error:" + e.getMessage())
                                     .setPositiveButton("OK", null)
                                     .show();
@@ -154,7 +154,7 @@
                                         if (er != null) {
                                             //失敗処理
                                             new AlertDialog.Builder(MainActivity.this)
-                                                    .setTitle("Notification from Nifty")
+                                                    .setTitle("Notification from NifCloud")
                                                     .setMessage("Error:" + er.getMessage())
                                                     .setPositiveButton("OK", null)
                                                     .show();
