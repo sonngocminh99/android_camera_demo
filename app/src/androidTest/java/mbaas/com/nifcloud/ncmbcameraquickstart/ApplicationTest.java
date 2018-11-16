@@ -1,4 +1,4 @@
-package mbaas.com.nifty.ncmbcameraquickstart;
+package mbaas.com.nifcloud.ncmbcameraquickstart;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
