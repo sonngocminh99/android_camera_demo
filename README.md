@@ -16,10 +16,10 @@
 
 ## 動作環境
 * Windows 7 Professional
-* Android Studio 3.1
+* Android Studio 3.4.1
 * Android ver 4x,5x
   - このサンプルアプリは、端末のカメラを使用するため、実機が必要です
-* Android SDK v3
+* Android SDK v3.0.2
 
 ※上記内容で動作確認をしています
 
@@ -48,7 +48,7 @@
 * 下記リンクをクリックしてプロジェクトをダウンロードします
  * https://github.com/NIFCLOUD-mbaas/android_camera_demo/archive/master.zip
 * ダウンロードしたプロジェクトを解凍します
-* AndroidStudio を開きます、「Open an existing Android Studio projct」をクリックして解凍したプロジェクトを選択します
+* AndroidStudio を開きます、「Open an existing Android Studio project」をクリックして解凍したプロジェクトを選択します
 
 ![画像6](/readme-img/SelectProject.png)
 
@@ -58,7 +58,7 @@
 
 ### 3. SDKの導入（実装済み）
 
-※このサンプルアプリには既にSDKが実装済み（下記手順）となっています。（ver.3.0.0)<br>　最新版をご利用の場合は入れ替えてご利用ください。
+※このサンプルアプリには既にSDKが実装済み（下記手順）となっています。（ver.3.0.2)<br>　最新版をご利用の場合は入れ替えてご利用ください。
 
 * SDKダウンロード
 SDKはここ（[SDK リリースページ](https://github.com/NIFCLOUD-mbaas/ncmb_android/releases)）から取得してください.
@@ -69,8 +69,8 @@ SDKはここ（[SDK リリースページ](https://github.com/NIFCLOUD-mbaas/ncm
   - app/build.gradleファイルに以下を追加します
 ```gradle
 dependencies {
-    compile 'com.google.code.gson:gson:2.3.1'
-    compile files('libs/NCMB.jar')
+    implementation 'com.google.code.gson:gson:2.3.1'
+    implementation files('libs/NCMB.jar')
 }
 ```
   - androidManifestの設定
