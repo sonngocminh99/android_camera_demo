@@ -15,11 +15,10 @@
 ![画像2](/readme-img/SdkTypes.png)
 
 ## 動作環境
-* Windows 7 Professional
-* Android Studio 3.4.1
-* Android ver 4x,5x
-  - このサンプルアプリは、端末のカメラを使用するため、実機が必要です
-* Android SDK v3.0.2
+* MacOS Mojave v10.14.6 (18G103)
+* Android studio: 3.4.1
+* Simulator: Pixel 2 Android OS Version 10
+* Unity 2019.1.14f1
 
 ※上記内容で動作確認をしています
 
