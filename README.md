@@ -89,7 +89,7 @@ dependencies {
 
 ![画像8](/readme-img/AndroidAPIkey.png)
 
-* それぞれ`YOUR_APP_KEY`と`YOUR_CLIENT_KEY`の部分を書き換えます
+* それぞれ`YOUR_APPLICATION_KEY`と`YOUR_CLIENT_KEY`の部分を書き換えます
  * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
 
 ### 5. 動作確認
