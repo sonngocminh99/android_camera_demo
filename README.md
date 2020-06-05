@@ -48,7 +48,7 @@
 * ダウンロードしたプロジェクトを解凍します
 * AndroidStudio を開きます、「Open an existing Android Studio project」をクリックして解凍したプロジェクトを選択します
 
-![画像6](/readme-img/SelectProject.png)
+![画像6](/readme-img/android_studio.png)
 
 * プロジェクトを開きます
 
